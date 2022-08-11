@@ -5,6 +5,12 @@
     --dark-grayish-blue: hsl(240, 6%, 50%);
     --bg-soft-violet: hsl(273, 75%, 66%);
     --bg-soft-blue: hsl(240, 73%, 65%);
+    --light-grayish-blue: hsl(240, 5%, 91%);
+}
+
+* {
+    margin: 0;
+    padding: 0;
 }
 
 body {
@@ -12,34 +18,116 @@ body {
     height: 100vh;
     background: linear-gradient(180deg, var(--bg-soft-violet), var(--bg-soft-blue));
     font: 16px 'Kumbh Sans', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 7rem;
 }
 
 main {
-    max-width: 80vw;
+    width: 80vw;
     height: auto;
     background-color: white;
-    border-radius: 15%;
+    border-radius: 5%;
+    display: flex;
+    flex-direction: column;
     margin: 0 auto;
+    align-items: center;
+    border: 1px solid red;
+    padding: 7rem 0 4rem 0;
 }
 
-summary::marker {
-    display: none;
+.main__title{
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 700;
+    margin: 2rem;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+.main__imgs {
+    width: 80%;
+    height: 11rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    position: absolute;
+    top: 33px;
+    
+}
+
+.main__imgs img {
+    width: 80%;
+    position: relative;
+}
+
+.imgs__mobile2{
+    position: absolute;
+    top: -62px;
 }
 
 .detail {
- 
+    width: 80%;
+    margin: 1rem 0;
+}
+
+hr {
+    width: 81%;
+    color: var(--light-grayish-blue);
+    opacity: 0.2;
+}
+
+.detail[open]{
+    font-weight: 700;
 }
 
 .detail__summary{
+    list-style-type: none;
+    font-size: 0.75rem;
+    color: var(--very-dark-grayish-blue);
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+}
 
+.summary__arrow {
+    width: 10px;
+    height: 7px;
+    
 }
 
 .detail__paragraph{
-
+    font-size: 0.75rem;
+    font-weight: 400;
+    line-height: 150%;
+    margin-top: 0.5rem;
+    color: var(--dark-grayish-blue);
 }
 
+/*Animação da seta*/
+/*@keyframes arrow {
+    0%{
+        transform: rotate(0);
+    }
 
+    100% {
+        transform: rotate(180deg);
+    }
+}
 
+.is-animating {
+    animation: arrow 1s;
+}
+
+.is-animating {
+    transform: rotate(180deg);
+}
+*/
 
 
 .attribution { 
