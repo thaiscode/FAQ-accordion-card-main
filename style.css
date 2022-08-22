@@ -290,6 +290,13 @@ main {
     margin: 2rem;
 }
 
+<<<<<<< HEAD
+=======
+img {
+    max-width: 100%;
+    height: auto;
+}
+>>>>>>> 4f4fd84762387cdda35291686386bfa15c16f4de
 
 
 .detail {
@@ -358,4 +365,5 @@ hr {
 
 .attribution a { 
     color: hsl(228, 45%, 44%); 
+}
 }
