@@ -122,6 +122,19 @@ hr {
     opacity: 0.2;
 }
 
+.attribution { 
+    font-size: 0.75rem; 
+    text-align: center; 
+    color: white; 
+    position: relative;
+    top: 40%;
+}
+
+.attribution a { 
+    color: var(--soft-red);
+    text-decoration: none;
+}
+
 /*Desktop*/
 
 @media screen and (min-width: 768px){
@@ -166,18 +179,48 @@ hr {
         left: -49%;
     }
 
-    /*continuar daqui*/
-    
     .content {
         width: 50%;
-        height: auto;
-        max-height: 50%;
-        margin: 0;
-        border: 1px solid red;
+        max-height: 100%;
+        margin: 0 auto;
+        padding: 0 4rem;        
     }
 
     .content__title {
         text-align: left;
+    }
+    
+    .detail {
+        margin: 0.7rem 0;
+    }
+
+    .detail__summary {
+        font-size: 0.9rem;
+    }
+    
+    .summary__arrow {
+        width: 11px;
+        height: 7px;
+    }
+    
+    .detail__paragraph {
+        font-size: 0.8rem;
+    }
+
+    /*Hover*/
+    .detail__summary:hover {
+        color: var(--soft-red);
+        cursor: pointer;
+    }
+
+    .attribution { 
+        font-size: 1rem; 
+        top: 30%;
+    }
+
+    .attribution a:hover {
+        font-weight: 700;
+        cursor: pointer;
     }
 }
 
@@ -192,154 +235,83 @@ hr {
 
     .img__box {
         width: 40%;
-        bottom: -35%;
-        left: -50%;
+        bottom: -36%;
+        left: -49%;
     }
 
-@media screen and (min-width: 1920px){}
+    .content__title {
+        font-size: 2rem;
+    }
 
+    .detail__summary{
+        font-size: 1rem;
+    }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*
-body {
-    width: 100vw;
-    height: auto;
-    background: linear-gradient(180deg, var(--bg-soft-violet), var(--bg-soft-blue));
-    font: 16px 'Kumbh Sans', sans-serif;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    padding-top: 7rem;
+    .detail__paragraph {
+        font-size: 0.9rem;
+    }
 }
 
-img {
-    width: 100%;
-    height: auto;
+@media screen and (min-width: 1920px){
+    main {
+        background-position: top 60% left -100%;
+    }
+
+    .main__img {
+        background-position: top 50% left -30%;
+    }
+
+    .img__box {
+        width: 35%;
+        bottom: -40%;
+        left: -49%;
+    }
+
+    .content {
+        padding: 0 5.5rem;        
+    }
+
+    .content__title {
+        font-size: 2.5rem;
+    }
+
+    .detail__summary{
+        font-size: 1.4rem;
+    }
+
+    .detail__paragraph {
+        font-size: 1.2rem;
+    }
+
+    .attribution { 
+        font-size: 1.5rem; 
+        top: 35%;
+    }
 }
 
-main {
-    width: 80vw;
-    height: 500px;
-    max-height: 500px;
-    background-color: white;
-    border-radius: 5%;
-    margin: 0 auto;
-    padding-top: 4rem;
-    border: 1px solid red;
-}
-
-.picture {
-    width: 80%;
-    height: 10rem;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin: 0 auto;
-    border: 1px solid red;
-    
-}
-
-.picture img {
-    width: 80%;
-    position: relative;
-}
-
-.picture__mobile1{
-    position: absolute;
-    top: 50px;
-}
-
-.picture__mobile2{
-    position: absolute;
-    top: -30px;
-}
-
-.content{
-    width: 80%;
-    height: auto;
-    max-height: 450px;
-    display: flex;
-    flex-direction: column;
-    margin: 0 auto;
-    align-items: center;
-    
-}
-
-.content__title{
-    text-align: center;
-    font-size: 2rem;
-    font-weight: 700;
-    margin: 2rem;
-}
-
-<<<<<<< HEAD
-=======
-img {
-    max-width: 100%;
-    height: auto;
-}
->>>>>>> 4f4fd84762387cdda35291686386bfa15c16f4de
 
 
-.detail {
-    width: 90%;
-    margin: 1rem 0;
-}
 
-hr {
-    width: 91%;
-    color: var(--light-grayish-blue);
-    opacity: 0.2;
-}
 
-.detail[open]{
-    font-weight: 700;
-}
 
-.detail__summary{
-    list-style-type: none;
-    font-size: 0.75rem;
-    color: var(--very-dark-grayish-blue);
-    display: flex;
-    align-items: baseline;
-    justify-content: space-between;
-}
 
-.summary__arrow {
-    width: 10px;
-    height: 7px;
-}
 
-.detail__paragraph{
-    font-size: 0.75rem;
-    font-weight: 400;
-    line-height: 150%;
-    margin-top: 0.5rem;
-    color: var(--dark-grayish-blue);
-}
+
+
+
+
+
+
+
+
+
+
+
 
 
 
 /*Animação da seta*/
-/*@keyframes arrow {
+@keyframes arrow {
     0%{
         transform: rotate(0);
     }
@@ -356,14 +328,8 @@ hr {
 .active {
     transform: rotate(180deg);
 }
-*/
+/**/
 
 
-.attribution { 
-    font-size: 11px; text-align: center; 
-}
 
-.attribution a { 
-    color: hsl(228, 45%, 44%); 
-}
-}
+
