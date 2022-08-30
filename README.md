@@ -34,7 +34,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [](https://thaiscode.github.io/FAQ-accordion-card-main/)
 
 ## My process
 
@@ -48,7 +48,7 @@ Users should be able to:
 - BEM
 
 ### What I learned
-From this challenge I learned about a new tag <section>.
+From this challenge I learned about a new tag < section>.
 
 I also learned how event.target works in js.
 
