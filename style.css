@@ -144,11 +144,7 @@ hr {
     }
 }
 
-@media screen and (min-width: 1280px){
-    body {
-        overflow: hidden;
-    }
-    
+@media screen and (min-width: 1280px){    
     main {
         display: flex;
         align-items: center;
