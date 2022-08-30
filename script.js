@@ -1,8 +1,28 @@
-let arrow = document.querySelector('.summary__arrow')
-    arrow.addEventListener('click', rotate)
+let arrow = document.querySelectorAll('.summary__arrow')
 
 
 
-function rotate() {
-    arrow.classList.toggle('is-animating')
+for (let i = 0; i < arrow.length; i++) {
+    arrow[i].addEventListener('click', rotate)
 }
+
+function rotate(e){
+    e.target.classList.toggle('active')   
+}
+
+
+
+
+/*for (let i = 0; i < arrow.length; i++) {
+    document.body.addEventListener('click', function (e) {
+        if (e.target == arrow[i]) {
+            arrow[i].classList.toggle('active');
+        } else {
+            arrow[i].classList.remove('active')
+        }
+    })
+    
+}*/
+
+
+

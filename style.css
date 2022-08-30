@@ -39,7 +39,7 @@ main {
     margin: 0 auto;
     border-radius: 20px;
     position: absolute;
-    top: 20%;
+    top: 25%;
 }
 
 .main__img {
@@ -127,7 +127,7 @@ hr {
     text-align: center; 
     color: white; 
     position: relative;
-    top: 40%;
+    top: 45%;
 }
 
 .attribution a { 
@@ -145,6 +145,10 @@ hr {
 }
 
 @media screen and (min-width: 1280px){
+    body {
+        overflow: hidden;
+    }
+    
     main {
         display: flex;
         align-items: center;
@@ -290,45 +294,13 @@ hr {
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*Animação da seta*/
-@keyframes arrow {
-    0%{
-        transform: rotate(0);
-    }
-
-    100% {
-        transform: rotate(180deg);
-    }
-}
-
-.is-animating {
-    animation: arrow 1s;
-}
+/*Arrow animation*/
 
 .active {
     transform: rotate(180deg);
+    transition: 1s;
 }
-/**/
+
 
 
 
