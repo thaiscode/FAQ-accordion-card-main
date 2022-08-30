@@ -155,7 +155,7 @@ hr {
         width: 70%;
         height: 80%;
         top: 10%;
-        background: white url(images/bg-pattern-desktop.svg) no-repeat;
+        background: white url(./images/bg-pattern-desktop.svg) no-repeat;
         background-position: top 60% left 800%;
     }
 
@@ -167,7 +167,7 @@ hr {
         width: 50%;
         height: 100%;
         position: static;
-        background: url(images/illustration-woman-online-desktop.svg) no-repeat;
+        background: url(./images/illustration-woman-online-desktop.svg) no-repeat;
         background-position: top 70% left 300%;
     }
 
