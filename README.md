@@ -33,7 +33,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [](https://www.frontendmentor.io/solutions/faq-accordion-card-with-flexbox-and-js-vanilla-38dvg0iBs0)
 - Live Site URL: [](https://thaiscode.github.io/FAQ-accordion-card-main/)
 
 ## My process
@@ -48,7 +48,7 @@ Users should be able to:
 - BEM
 
 ### What I learned
-From this challenge I learned about a new tag < section>.
+From this challenge I learned about a new tag < details>.
 
 I also learned how event.target works in js.
 
