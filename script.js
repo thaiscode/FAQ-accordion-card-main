@@ -1,6 +1,6 @@
-let summary = document.querySelectorAll('detail')
-let arrow = document.querySelectorAll('.summary__arrow')
 
+let arrow = document.querySelectorAll('.summary__arrow')
+let summary = document.querySelectorAll('.detail')
 
 summaryArr = Array.from(summary)
 arrowArr = Array.from(arrow)
