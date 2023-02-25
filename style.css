@@ -292,7 +292,7 @@ hr {
 
 /*Arrow animation*/
 
-.active {
+.active img{
     transform: rotate(180deg);
     transition: 1s;
 }
